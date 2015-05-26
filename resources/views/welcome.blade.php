@@ -3,8 +3,8 @@
     <head>
         <title>Time Tracker</title>
         <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.css"> -->
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.css">
         <link rel="stylesheet" href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css">
         <link rel="stylesheet" href="bower_components/angular-datatables/dist/plugins/bootstrap/dataTables.bootstrap.css">
     </head>
@@ -19,7 +19,7 @@
         </nav>
 
         <div class="container">
-          <table datatable="ng" class="row-border hover">
+          <table datatable="ng" class="table table-striped table-bordered">
             <thead>
             <tr>
               <th>ID</th>

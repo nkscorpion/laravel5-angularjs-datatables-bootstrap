@@ -5,7 +5,8 @@
     .module('app', [
         'ngResource',
         'ui.bootstrap',
-        'datatables'
+        'datatables',
+        'datatables.bootstrap'
     ], function($interpolateProvider) {
       $interpolateProvider.startSymbol('<%');
       $interpolateProvider.endSymbol('%>');
